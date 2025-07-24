@@ -1,0 +1,31 @@
+//This patch was created by PsxRestore for the Mercenaries HD Texture Pack: https://gamebanana.com/mods/495971
+gametitle=Mercenaries - Playground of Destruction NTSC-U SLUS-20932 23510F99
+
+[Extended LOD (HD)]
+author=PSXRestore
+description=Increases LOD range by 10x without breaking mipmaps. Renders high quality textures regardless of distance.
+patch=1,EE,204A4970,extended,447A0000 // Level 1 LOD: 1000
+patch=1,EE,204A4974,extended,44BB8000 // Level 2 LOD: 1500
+patch=1,EE,204A4978,extended,44FA0000 // Level 3 LOD: 2000
+patch=1,EE,204A4964,extended,41200000 // LOD Scale: 10
+
+[Extended LOD (Balanced)]
+author=PSXRestore
+description=Increases LOD range by 3x without breaking mipmaps. Fades textures and models away around where the fog starts.
+patch=1,EE,204A4970,extended,43960000 // Level 1 LOD: 300
+patch=1,EE,204A4974,extended,43E20000 // Level 2 LOD: 450
+patch=1,EE,204A4978,extended,442C0000 // Level 3 LOD: 600
+patch=1,EE,204A4964,extended,40400000 // LOD Scale: 3
+
+[Remove Frame Skipping]
+author=PSXRestore
+description=Disables 30 FPS cap by removing frame skipping. Requires EE Overclock to be set from 130% to 300%.
+patch=1,EE,203AD700,extended,00000000
+patch=1,EE,203AD704,extended,00000000
+patch=1,EE,203AD708,extended,00000000
+patch=1,EE,203AD70C,extended,00000000
+patch=1,EE,203AD710,extended,00000000
+patch=1,EE,203AD718,extended,00000000
+patch=1,EE,203AD71C,extended,00000000
+patch=1,EE,203AD720,extended,00000000
+patch=1,EE,203AD72C,extended,00000000
