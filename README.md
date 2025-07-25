@@ -3,7 +3,7 @@ This is a collection of PCSX2 cheats, patches and game configs I've made for my 
 
 ## Installation
 - If you haven't already, download [PCSX2](https://pcsx2.net/).
-- Download "patches" directory and place it in the PCSX2 folder.
+- Download "patches" and "cheats" directories and place them in the PCSX2 folder.
 - Alternately, you can place each .pnach file into the "patches" or "cheats" folder.
 
 ## Notice
